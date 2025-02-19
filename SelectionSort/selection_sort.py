@@ -5,7 +5,7 @@ def findleast(arr):
     for i in range (1, len(arr)):
         if arr[i] < smallest:
             smallest = arr[i]
-            smallest_index = 1            
+            smallest_index = i            
     return smallest_index
 
 def selection_sort(arr):
